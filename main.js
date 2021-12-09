@@ -1,9 +1,17 @@
+//https://i.gifer.com/6x4v.gif - naruto
+// https://i.gifer.com/ZJF5.gif - fire ball
+// https://i.gifer.com/6md.gif - simpson
+// https://i.gifer.com/PcUC.gif
+// https://i.gifer.com/YAS0.gif
+// https://i.gifer.com/ZbpB.gif
+// https://i.gifer.com/5Mys.gif
+
 const container = document.getElementsByClassName('arenas')[0]
 
 const SharapaGorg = {
     name    : 'SharapaGorg',
     hp      : '1000',
-    img     : 'http://reactmarathon-api.herokuapp.com/assets/liukang.gif',
+    img     : 'https://i.gifer.com/ZbpB.gif',
     weapon  : ['vue.js', 'nuxt.js'],
     attack  : () => {
         console.log(SharapaGorg.name + ' Fight...')
@@ -14,13 +22,14 @@ const SharapaGorg = {
 const AlexeyZavar = {
     name    : 'AlexeyZavar',
     hp      : '1000',
-    img     : 'http://reactmarathon-api.herokuapp.com/assets/sonya.gif',
+    img     : 'https://i.gifer.com/5Mys.gif',
     weapon  : ['ASPNET', 'flask'],
     attack  : () => {
         console.log(AlexeyZavar.name + ' Fight...')
     }
 
 }
+
 
 function createPlayer(className_, player) {
     let playerObject, progressBar, character, life, name, image;
