@@ -5,13 +5,15 @@
 // https://i.gifer.com/YAS0.gif
 // https://i.gifer.com/ZbpB.gif
 // https://i.gifer.com/5Mys.gif
+// https://i.gifer.com/2r6C.gif - naruto1
+// https://i.gifer.com/ZHHh.gif - saske
 
 const container = document.getElementsByClassName('arenas')[0]
 
 const SharapaGorg = {
     name    : 'SharapaGorg',
     hp      : '1000',
-    img     : 'https://i.gifer.com/ZbpB.gif',
+    img     : 'https://i.gifer.com/ZHHh.gif',
     weapon  : ['vue.js', 'nuxt.js'],
     attack  : () => {
         console.log(SharapaGorg.name + ' Fight...')
