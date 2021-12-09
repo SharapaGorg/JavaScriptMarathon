@@ -1,12 +1,12 @@
-//https://i.gifer.com/6x4v.gif - naruto
-// https://i.gifer.com/ZJF5.gif - fire ball
-// https://i.gifer.com/6md.gif - simpson
 // https://i.gifer.com/PcUC.gif
 // https://i.gifer.com/YAS0.gif
 // https://i.gifer.com/ZbpB.gif
 // https://i.gifer.com/5Mys.gif
 // https://i.gifer.com/2r6C.gif - naruto1
+// https://i.gifer.com/79eC.gif - naruto technique
 // https://i.gifer.com/ZHHh.gif - saske
+// https://i.gifer.com/37Ft.gif - saske technique
+// https://i.gifer.com/ZHDc.gif - saske technique
 
 const container = document.getElementsByClassName('arenas')[0]
 
@@ -15,10 +15,9 @@ const SharapaGorg = {
     hp      : '1000',
     img     : 'https://i.gifer.com/ZHHh.gif',
     weapon  : ['vue.js', 'nuxt.js'],
-    attack  : () => {
-        console.log(SharapaGorg.name + ' Fight...')
+    attack  : (weapon) => {
+        console.log(SharapaGorg.name + ' [' + weapon + '] attacked')
     }
-
 }
 
 const AlexeyZavar = {
@@ -26,10 +25,9 @@ const AlexeyZavar = {
     hp      : '1000',
     img     : 'https://i.gifer.com/5Mys.gif',
     weapon  : ['ASPNET', 'flask'],
-    attack  : () => {
-        console.log(AlexeyZavar.name + ' Fight...')
+    attack  : (weapon) => {
+        console.log(SharapaGorg.name + ' [' + weapon + '] attacked')
     }
-
 }
 
 
