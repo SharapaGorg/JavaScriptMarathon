@@ -45,7 +45,8 @@ function createPlayer(className_, player) {
     character.className     = 'character';
     life.className          = 'life';
     name.className          = 'name';
-    image.src               = player.img
+    image.src               = player.img;
+    name.innerText          = player.name;
 
     playerObject.appendChild(progressBar);
     playerObject.appendChild(character);
