@@ -182,6 +182,10 @@ body {
     height: 268px;
 }
 
+.character img {
+    /*width : 150px;*/
+}
+
 .player1 .character {
     left: 60px;
 }
