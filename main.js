@@ -202,13 +202,14 @@ function changeHp(player) {
 
         container.appendChild(winTitle)
         let playerImg =  container.getElementsByTagName('img')[player.player - 1]
-        let winnerImg = container.getElementsByTagName('img')[player.player === 0 ? 1 : 0]
+        let winnerImg = container.getElementsByTagName('img')[player.player === 1 ? 1 : 0]
 
         setInterval(() => {
             // playerImg.src = loseGif
             // winnerImg.src = winGif
             playerImg.src = 'https://i.gifer.com/ZHHh.gif'
             winnerImg.src = 'https://i.gifer.com/5Mys.gif'
+            console.log(playerImg, winnerImg)
         }, 1500)
         container.style.backgroundImage = 'url(' + endGif + ')'
 
